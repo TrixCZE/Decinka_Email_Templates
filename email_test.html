@@ -1,41 +1,51 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Email Template</title>
-  <style>
-    /* Add any styles that will not be overridden by email clients here */
-    body, table, td, a {
-      text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-      -webkit-text-size-adjust: 100%;
-    }
-  </style>
-</head>
-<body style="margin: 0; padding: 0;">
-  <table border="0" cellpadding="0" cellspacing="0" width="100%">
-    <tr>
-      <td align="center" style="padding: 10px 0 30px 0;">
-        <table border="0" cellpadding="0" cellspacing="0" width="600" style="border: 1px solid #cccccc;">
+<!-- Create main outline within which email will be enclosed -->
+<body style="background-color:grey">
+  <table align="center" border="0" cellpadding="0" cellspacing="0" 
+         width="550" bgcolor="white" style="border: 1px solid black">
+      <tbody>
           <tr>
-            <td bgcolor="#70bbd9" style="padding: 40px 30px 40px 30px;">
-              <h1 style="color: #ffffff; margin: 0;">Welcome to Our Service</h1>
-            </td>
+              <td align="center">
+                  <table align="center" border="0" cellpadding="0" 
+                         cellspacing="0" class="col-550" width="550">
+                      <tbody>
+                          <tr>
+                              <td align="center" 
+                                  style="background-color: rgb(156, 0, 0);
+                                         height: 50px;">
+                                
+                                  <a href="#" style="text-decoration: none; align-content: center;">
+                                      <p style="color:white; 
+                                                font-family: 'Segoe UI'; 
+                                                font-weight: 700;
+                                                font-size: 24px;
+                                                letter-spacing: 2px;">
+                                          Vinárna Decinka
+                                      </p>
+                                  </a>
+                              </td>
+                          </tr>
+                          <tr>
+                            <td align="center" 
+                              style="background-color: rgb(156, 0, 0);
+                                   height: 5px;">
+                          
+                              <a href="#" style="text-decoration: none; align-content: center;">
+                                <p style="color:white; 
+                                          font-family: 'Segoe UI'; 
+                                          font-weight: 400;
+                                          font-size: 12px;
+                                          letter-spacing: 1px;">
+                                    Byl vytvořen nový dump databáze
+                                </p>
+                              </a>
+                            </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </td>
           </tr>
-          <tr>
-            <td bgcolor="#ffffff" style="padding: 40px 30px 40px 30px;">
-              <p style="margin: 0;">This is a sample email template.</p>
-            </td>
-          </tr>
-          <tr>
-            <td bgcolor="#ee4c50" style="padding: 30px 30px 30px 30px;">
-              <p style="color: #ffffff; margin: 0;">Footer Information</p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
+      </tbody>
   </table>
 </body>
 </html>
